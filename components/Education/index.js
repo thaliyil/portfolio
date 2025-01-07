@@ -1,8 +1,8 @@
 export default function Education() {
   return (
-    <div>
+    <>
       <h2>Bildungsweg</h2>
-      <ul>
+      <ol>
         <li>
           Intensivprogramm aus Weiterbildung zum Web Developer- Neue Fische,
           Hamburg 05/2024 – 08/2024 Ein dreimonatiges Intensivprogramm bot eine
@@ -16,10 +16,11 @@ export default function Education() {
           CSS in JS, Next.js, Node.js, MongoDB, VSCode ✓ Project:
           https://capstone-trail-blazer.vercel.app/
         </li>
+
         <li>
           Bachelor of Engineering in Computer Science- Kannur University- India
         </li>
-      </ul>
-    </div>
+      </ol>
+    </>
   );
 }
